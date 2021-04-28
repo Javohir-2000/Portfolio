@@ -15,7 +15,7 @@
         of the Wars of the Roses, is sometimes regarded as the end of the Middle Ages in England. 
         He is the subject of the play<cite>Richard III</cite> by";
         $a = strip_tags($a);
-    $b= substr($a, 0, 200);
+    $b= substr($a, 0, 290);
     $b = rtrim($b, "!,.-");
     $b = substr($b, 0, strrpos($b, ' '));
     $link='';
